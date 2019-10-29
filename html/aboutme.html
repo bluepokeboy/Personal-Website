@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/aboutme.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/navbar.js"></script>
+	<script src="../js/image.js"></script>
+	<title>About Me!</title>
+</head>
+<body>
+	<div id="navbar">
+					<img class="logo" src="../img/logo.png">
+  					<a class="linkz" href="index.html">Home</a>
+					<a class="linkz" href="aboutme.html">About Me</a>
+					<a class="linkz" href="contactme.html">Contact Me</a>
+					<a class="linkz" href="random.html">Skills</a>
+					<a class="linkz" href="achievements.html">Achievements</a>
+</div>
+	<p id="sub">
+		These are some of my interests.<br>
+		Click to find out more!<br>
+	</p>
+	<img id="change" alt="Interests" src="../img/lewa.jpg" onclick="imchange()" />
+	<p id="changetxt">
+		Bayern Munich is one of the greatest teams in Europe with 5 UEFA Champions league trophies and 26 Bundesliga's<br>
+	</p>
+	<br>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/navbar.js"></script>
+	<script src="../js/like.js"></script>
+	<title>My Home Page!</title>
+</head>
+<body onload="initial()">
+	<div id="navbar">
+					<img class="logo" src="../img/logo.png">
+  					<a class="linkz"  href="index.html">Home</a>
+					<a class="linkz"  href="aboutme.html">About Me</a>
+					<a class="linkz"  href="contactme.html">Contact Me</a>
+					<a class="linkz" href="random.html">Skills</a>
+					<a class="linkz" href="achievements.html">Achievements</a>
+</div>
+	<p id="intropage">
+		<br>
+	<br>
+	Welcome To My Page!<br>
+	My name is Manvith Reddy<br> and I am studying<br> Computer Science in <br>IIIT Hyderabad.<br>
+	<br>
+	Hit the like button!<br>
+	The number of likes are <span id="myText"></span><br>
+	<button class="button" type="button" onclick="like()">Like</button>
+</p>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

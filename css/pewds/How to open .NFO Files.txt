@@ -1,0 +1,11 @@
+Drag an .nfo file to "wordpad" or "notepad"
+RECOMMENDED WORDPAD
+
+##################  OR ####################
+
+Right click an .nfo file
+click open with
+choose word pad or notepad
+#####   ########
+###############
+SHARED BY JOSH VILLALUZ

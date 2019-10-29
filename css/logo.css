@@ -1,0 +1,146 @@
+.fa {
+  padding: 30px;
+  font-size: 100px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 50px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+  padding: 40px;
+  font-size: 120px;
+  width: 120px;
+  border-radius: 40%;
+  box-shadow: 0 0 35px blue;
+}
+.fa-instagram:hover {
+  padding: 40px;
+  font-size: 120px;
+  width: 120px;
+  border-radius: 40%;
+  box-shadow: 0 0 35px brown;
+}
+.fa-youtube:hover {
+  padding: 40px;
+  font-size: 120px;
+  width: 120px;
+  border-radius: 40%;
+  box-shadow: 0 0 35px red;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: linear-gradient(purple,#FE017F,yellow);
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.logo{
+  margin-top: 0px;
+  margin-bottom:40px;
+  height:80px;
+  width:80px;
+  margin-left:0px;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0px 16px;
+  position: relative
+  top: -10px;
+  margin: 0px;
+  float: left;
+}
+#cm{
+  /*margin: 100px 50px;*/
+  margin-top: 200px;
+  padding-top: 200px;
+  margin-bottom: 50px;
+  font-family: 'sketch';
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+}
+#sub{
+  margin-top: 50px;
+  padding-top: 200px;
+  font-family: 'pewds';
+  font-size: 20px;
+  color: #E74C3C;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+}
+#bro{
+  height: 80px;
+}
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+body {
+    background: url(../img/top_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+@font-face {
+  font-family: 'Overpass';
+  src: url("overpass/overpass-bold-italic.otf");
+}
+@font-face {
+  font-family: 'sketch';
+  src: url("Sketch_Block/Sketch_Block.ttf");
+}
+@font-face {
+  font-family: 'pewds';
+  src: url("pewds/FEASFBI_.TTF");
+}
+#navbar {
+  overflow: hidden;
+  background-color: #000000;
+  margin-top: 0px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 25px 25px -25px blue;
+  font-family: 'Overpass';
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 20px;
+  float: left;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

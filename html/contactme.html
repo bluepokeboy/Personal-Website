@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/logo.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/navbar.js"></script>
+</head>
+<body>
+	<div id="navbar">
+					<img class="logo" src="../img/logo.png">
+  					<a class="linkz" href="index.html">Home</a>
+					<a class="linkz" href="aboutme.html">About Me</a>
+					<a class="linkz" href="contactme.html">Contact Me</a>
+					<a class="linkz" href="random.html">Skills</a>
+					<a class="linkz" href="achievements.html">Achievements</a>
+</div>
+	<p id="cm">
+		Contact me at:<br>
+	</p>
+	<p align="center">
+	<a href="https://www.facebook.com/manvith.reddy.359" target="_blank" class="fa fa-facebook"></a>
+	<a href="https://www.youtube.com/user/PewDiePie" target="_blank" class="fa fa-youtube"></a>
+	<a href="https://www.instagram.com/manvith18/" target="_blank" class="fa fa-instagram"></a>
+	</p>
+	<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
